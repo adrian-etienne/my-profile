@@ -1,0 +1,80 @@
+body{
+	background-color: #F0F8FF;
+	color: rgb(40, 40, 40);
+}
+#profile_picture{
+	width: 250px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 2px rgb(200, 200, 200);
+}
+.container{
+	text-align:center;
+	width:800px;
+	margin: 60px auto;
+}
+.container_smaller{
+	width:640px;
+	margin: 80px auto;
+}
+@media (max-width:770px){
+	.container{
+		width: 500px;
+	}
+	.container_smaller{
+		width:400px;
+	}
+}
+
+.div_normal{
+	background:#F7FBFD;
+	padding:40px;
+	margin: 40px auto;
+	box-shadow:0px 8px 25px rgba(50, 50, 50, 0.3);
+	border-radius:8px;
+	;
+}
+.div_smaller{
+	background:#F7FBFD;
+	padding: 10px;
+	box-shadow:0px 8px 25px rgba(50, 50, 50, 0.3);
+	margin:60px auto;
+	border-radius:8px;
+
+	
+}
+.list_inline{
+	list-style:none;
+	padding-left: 0px;
+}
+.list_inline li{
+	display: inline;
+	padding: 10px;
+}
+.fa-brands{
+	font-size: 40px;
+}
+h1, h2, h3{
+	font-family: 'Merriweather', serif;
+}
+h1{
+	color: #002147;
+	font-size: 40px;	
+}
+h2{
+	color: #5BB450;
+}
+h3{
+	color: #8EB69B;
+	font-size: 22px;
+}
+p{
+	font-size: 18px;
+	font-family: cursive;
+}
+a{
+	color:#1260CC;
+}
+a:hover{
+	transition: all ease-in-out 0.3s;
+	color:#9B23D0;
+}
